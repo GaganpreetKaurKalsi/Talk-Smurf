@@ -1,0 +1,82 @@
+:root{
+    --smurf-color : #01c2e9;
+    --light-blue : #0fbce7;
+    --blue : #28cdff;
+}
+
+body{
+    background-image : url("images/Smurf1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin : 0;
+}
+
+.font{
+    font-family : cursive;
+}
+
+.heading{
+    background-color: var(--smurf-color);
+    margin :0;
+    padding : 20px;
+    text-align : center;
+    font-style: italic;
+}
+
+.footer{
+    text-align : center;
+    background-color :var(--smurf-color);
+    /* color : rgba(255, 255, 255, 0.801); */
+    margin :0;
+    padding-top : 2px;
+    padding-bottom : 29px;
+    margin-top:40px;
+    font-style: italic;
+}
+
+.footer p{
+    max-width : 700px;
+    margin:auto;
+    width : 70vw;
+}
+
+.center{
+    max-width: 500px;
+    margin : auto;
+    width : 70vw;
+}
+
+.btn-primary{
+    background-color: var(--light-blue);
+    padding : 15px;
+    display : block;
+    border : none;
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    background-color: var(--blue);
+}
+
+.input{
+    width : 100%;
+    height : 100px;
+    border : 2px solid black;
+    padding : 2px;
+}
+
+.output{
+    width : 100%;
+    height : 70px;
+    border : 2px solid black;
+    background-color : white;
+    padding : 5px;
+}
+
+.sub-heading{
+    margin-bottom : 0;
+    margin-top : 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
